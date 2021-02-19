@@ -1,0 +1,54 @@
+body{
+    background-image: url(background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+   text-align: center;
+   color: black;
+}
+#title{
+    margin: 10px 0 0 0;
+}
+#description{
+    font-style: italic;
+    margin: 5px 0 15px 0 ;
+}
+
+#main{
+    display: flex;
+    /*background-color: lightgreen;*/
+    align-items: center;
+    flex-direction: column;
+}
+#survey-form{ 
+    color:white;
+    background: rgb(29, 68, 30,0.8);
+    border-radius: 4px;
+}
+
+.form-group{
+   margin:20px;
+   font-family: 'Monospace', sans-serif;
+   line-height: 1.4;
+   font-size: large;
+}
+
+#question{
+    margin:0 0 5px 0;
+}
+
+label{
+    margin: 0 0 5px 0;
+}
+
+#submit{
+    background-color: #4db977;
+    border-radius: 2px;
+    color:white;
+    font-weight: bold;
+}
+
